@@ -25,7 +25,7 @@ function Card(){
               
                 return(
                  
- <Emoji url = {item.image} name = {item.name} rot={rotatecss} key={index}/>
+ <Emoji url = {item.image} name = {item.name} rot={rotatecss} rotate = {rotate} key={index}/>
         )    })}
         
         </ul>

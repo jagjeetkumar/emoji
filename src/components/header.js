@@ -1,5 +1,6 @@
 import logo from './images/logo.png';
 import info from './images/info.png';
+ 
 function Header(){
    
     return(
@@ -9,7 +10,9 @@ function Header(){
                 <img src={logo} className='logo' alt='logo' />
             </div>
             <div className='infoicon'>
-  <img src={info} className='info' alt='info' />
+            <img src={info} className='info' alt='info' />
+ 
+  
             </div>
         </div>
         <div className="header-text">
